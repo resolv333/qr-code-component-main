@@ -6,8 +6,53 @@ body {
     margin: 0;
 }
 
-p {
-    text-align: center
+.box {
+    display: grid;
+    place-items: center;;    /* Centers vertically *      /* Vertically centers */
+    overflow-wrap: break-word;
+    height: 100vh;           
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%); 
+    width: 300px;
+    height: 500px;
+    margin-top: auto; /* Centers the box vertically */
+    margin-left: auto; /* Centers the box horizontally */
+    margin-right: auto; /* Centers the box horizontally */
+    border-radius: 15px;
+    text-align: center;
+}
+
+.box img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+.description {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.instructions {
+    color: hsl(216, 15%, 48%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 footer {
